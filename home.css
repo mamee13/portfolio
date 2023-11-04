@@ -1,0 +1,123 @@
+.hero{
+    position: relative;
+    padding: 20px 0;
+    margin-left: 2em;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+nav{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+    
+}
+
+.info{
+    cursor: default;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+
+.info h1{
+    font-size: 70px;
+    color: white;
+    margin-left: 20%;
+}
+
+.info h1 span{
+    color: red;
+    font-size: 70px;
+}
+
+.info p{
+    color: rgb(211, 219, 226);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15%;
+}
+.info pre{
+    color: rgb(211, 219, 226);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 12%;
+}
+.info2{
+    cursor: default;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;  
+}
+.info2 h1{
+    font-size: 70px;
+    color: white;
+    margin-left: 30%;
+}
+
+.info2 h1 span{
+    color: red;
+    font-size: 70px;
+}
+
+.info2 p{
+    color: rgb(211, 219, 226);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10%;
+}
+.info2 pre{
+    color: rgb(211, 219, 226);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 14%;
+}
+.btn{
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.button{
+    margin-left: 40%;
+}
+.btn{
+    background-color: red;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    transition: all .3s ease;
+    cursor: pointer;
+    border-radius: 7px;
+    opacity: 0.9;
+}
+.btn:hover{
+    color: rgb(236, 213, 213);
+    transform: scale(0.9);
+}
+
+.icons{
+    margin-left: 100px;
+    margin-top: 100%;
+    justify-content: space-between;
+    margin: 30px ;
+}
+.icons a{
+    color: white;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 100px;
+    transition: all .3s ease;
+}
+.icons a:hover{
+    color: red;
+}
