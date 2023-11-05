@@ -1,6 +1,6 @@
 *{
     font-family: 'Patrick Hand', cursive;
-    background-color: #0a1b3f;
+    background-color: #000000;
 }
 .nav{
     display: flex;
@@ -9,25 +9,6 @@
     margin-right: 3em;
     margin-top: 2em;
 }
-.list{
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.9em;
-}
-a{
-    text-decoration: none;
-    color: red;
-    transform: all ease .3s;
-}
-
-.logo{
-    font-size: 3.5em;
-}
-
-.home{
-    margin-right: 6em;
-}
-
 .container{
     width: 900px;
     height: 450px;
@@ -60,6 +41,8 @@ a{
     color: black;
     margin-left: 5em;
     margin-right: 5em;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 .container2{
     width: 900px;
